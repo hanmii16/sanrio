@@ -1,0 +1,46 @@
+aside {
+
+  position: fixed;
+  right: 60px;
+  top: calc(50% - 50px);
+  z-index: 3;
+  height: 100%;
+}
+aside .sns {
+
+}
+aside .sns a {
+
+  display: block;
+}
+aside .sns a img {
+
+  width: 40px;
+}
+aside .top {
+
+  position: absolute;
+  bottom: calc(50% - 20px);
+  border: 10px solid #4a679e;
+  background-color: #4a679e;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 60px;
+}
+aside .top a:before {
+  content: "";
+  background-image: url(../img/top_arr.png);
+  width: 16px;
+  height: 9px;
+  display: block;
+  position: absolute;
+  right: 13px;
+  bottom: 24px;
+} 
+aside .top a {
+   
+  color: #fff;
+  font-size: 15px;
+}

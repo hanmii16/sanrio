@@ -1,0 +1,57 @@
+#title{
+
+  height: 800px;
+}
+#title .wrap {
+
+  background: url(../img/pink.jpg) repeat 0 0 / 50px;
+  height: 100%;
+  max-width: 100%;
+  position: relative;
+}
+#title .wrap span {
+  
+}
+#title .wrap span img {
+  
+  max-width: 984px;
+  padding-top: 100px;
+}
+#title .scroll {
+  
+  position: absolute;
+  bottom: 50px;
+}
+#title .scroll span {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+#title .scroll span a {
+  
+  display: block;
+  border: 2px solid #2b2726;
+  width: 26px;
+  height: 36px;
+  border-radius: 23px;
+  background-color: #fff;
+  animation-name: updown;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+@keyframes updown{
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+     transform: translateY(-50%);
+  }
+}
+#title .scroll span p {
+  
+  font-size: 10px;
+}

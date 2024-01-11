@@ -1,0 +1,23 @@
+footer {
+  
+  background-color: #222222;
+}
+footer .wrap {
+  
+  padding: 50px 50px;
+}
+footer .wrap img {
+  
+  width: 197px;
+  height: 12px;
+}
+footer .wrap a {
+  
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  width: 135px;
+  height: 16px;
+  color: #ccc;
+  text-align: center;
+  padding: 15px;
+}

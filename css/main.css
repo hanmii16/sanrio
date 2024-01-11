@@ -1,0 +1,322 @@
+/* character */
+section#character {
+  padding: 85px 0;
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+}
+section#character .flex {
+
+  padding: 7px;
+} 
+section#character .flex h1 {
+
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 30px;
+} 
+section#character .flex > a {
+
+  text-align: center;
+  padding: 20px 0;
+  border: 1px solid #222;
+  border-radius: 30px;
+  max-width: 222px;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 50px;
+} 
+section#character .flex > a::after {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/more.png);
+  width: 44px;
+  height: 8px;
+  vertical-align: middle;
+}
+section#character .flex ul {
+
+  display: flex;
+  gap: 20px;
+} 
+section#character .flex ul li {
+
+  position: relative;
+  border: 1px solid #eee;
+  border-radius: 20px;
+} 
+section#character .flex ul li a {
+
+  display: block;
+  width: 285px;
+  height: 180px;
+  font-size: 0;
+} 
+section#character .flex li a img {
+
+}
+section#character .flex li a span {
+ 
+  overflow: hidden;
+}
+section#character .flex li a span img:hover {
+  opacity: 1;
+}
+section#character .flex li a span img {
+  position: absolute;
+  right: 1px;
+  opacity: 0;
+  transition: all 0.1s ease-in-out;
+}
+section#character .flex li div.text {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 0 0 20px 20px;
+  height: 80px;
+  padding: 20px 0;
+}
+section#character .flex ul li div.text h2 {
+  color: #444;
+}
+section#character .flex ul li div.text p {
+  font-weight: 600;
+  color: #ccc;
+}
+section#character ul li img {
+
+}
+
+/* company */
+section#company {
+
+  padding: 85px 0;
+}
+section#company h1 {
+
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+section#company .wrap {
+
+  width: 70%;
+  justify-content: space-between;
+}
+section#company .wrap ul {
+
+}
+section#company .wrap ul li {
+
+  text-align: center;
+  width: 400px;
+  border-right: 1px solid #eee;
+}
+section#company .wrap ul li img {
+
+}
+section#company .wrap ul li h2 {
+
+}
+section#company .wrap ul li p {
+
+  font-size: 15px;
+  font-weight: 300;
+  color: #333;
+  line-height: 1.6;
+}
+section#company .wrap ul li a {
+
+  display: block;
+  border: 1px solid #444;
+  border-radius: 30px;
+  padding: 10px 0;
+  max-width: 110px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 300;
+}
+section#company .wrap ul li:hover a {
+  
+  background-color: #222;
+  color: #fff;
+}
+/*recruit */
+section#recruit {
+
+  
+  padding: 85px 0;
+  background-color: #fff;
+  background-image: url(../img/recruit.png);
+  background-size: 85%;
+}
+section#recruit h1 {
+
+ 
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+section#recruit .wrap {
+
+ 
+  width: 55%;
+  justify-content: space-between;
+}
+section#recruit .wrap ul {
+
+}
+section#recruit .wrap ul li {
+
+ 
+  text-align: center;
+}
+section#recruit .wrap ul li img {
+
+}
+section#recruit .wrap ul li h2 {
+
+}
+section#recruit .wrap ul li p {
+
+  
+  font-size: 15px;
+  font-weight: 300;
+  color: #333;
+  line-height: 1.6;
+}
+section#recruit .wrap ul li a {
+
+   
+  display: block;
+  border: 1px solid #444;
+  border-radius: 30px;
+  padding: 10px 0;
+  max-width: 110px;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 300;
+}
+section#recruit .wrap ul li:hover a {
+  background-color: #222;
+  color: #fff;
+}
+/*place */
+section#place {
+
+  padding: 85px 0;
+  background-image: url(../img/shop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 90%;
+}
+section#place h1 {
+
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+section#place a{
+
+  text-align: center;
+  padding: 20px 0;
+  border: 1px solid #222;
+  border-radius: 30px;
+  max-width: 222px;
+  margin: auto;
+  margin-bottom: auto;
+  width: 100%;
+  margin-bottom: 50px;
+}
+section#place a::after {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/more.png);
+  width: 44px;
+  height: 8px;
+  vertical-align: middle;
+}
+/*contact */
+section#contact {
+
+  background-color: #4a679e;
+  position: relative;
+  padding: 100px;
+}
+section#contact img > img {
+
+  padding-top: 85px;
+}
+section#contact h1 {
+
+  margin: 30px 0;
+  color: #fff;
+}
+section#contact a {
+
+  text-align: center;
+  padding: 20px 0;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  max-width: 222px;
+  margin: auto;
+  margin-bottom: auto;
+  margin-bottom: auto;
+  width: 100%;
+  margin-bottom: 50px;
+  color: #fff;
+}
+section#contact a:after {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/more.png);
+  width: 44px;
+  height: 8px;
+  vertical-align: middle;
+  
+}
+section#contact article{
+
+  width: 1200px;
+  height: 350px;
+}
+section#contact article .left {
+
+}
+section#contact article .left img {
+
+  width: 650px;
+  height: 350px;
+  border-radius: 20px 0 0 20px;
+}
+section#contact article .right  {
+
+  background-color: #fff;
+  width: 600px;
+  padding: 50px;
+  border-radius: 0 20px 20px 0;
+}
+article.wrap p.title {
+
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+article.wrap p.text {
+  
+  color: #aaa;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  letter-spacing: 0.25px;
+}
+section#contact article .right ul {
+
+}
+section#contact article .right ul li {
+  
+}
+section#contact article div.right img {
+  
+  position: absolute;
+  right: calc((1903px - 1200px) / 2 );
+  top: 438px;
+}
